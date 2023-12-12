@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 50px;
+    background: #e3e6f3;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+.nav-logo img {
+    width: 300px;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-links li {
+    list-style: none;
+    padding: 0 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+.nav-links li a::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #357960;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.nav-links li a:hover {
+    color: #357960;
+}
+
+.nav-links .cart-icon {
+    transition: transform 0.5s ease;
+}
+
+.nav-links .cart-icon::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    background: #357960;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s ease;
+}
+
+.nav-links .cart-icon:hover::after {
+    width: 0%;
+}
+
+.nav-links .cart-icon:hover {
+    transform: translateY(-5px);
+}
