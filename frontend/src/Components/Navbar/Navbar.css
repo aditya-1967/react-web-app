@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 50px;
+    padding: 15px 100px;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -53,6 +53,10 @@
 .nav-links li .pages:hover {
     color: #357960;
     cursor: pointer;
+}
+
+.nav-links li .active-page {
+    color: #357960;
 }
 
 .nav-links li .cart-icon {
