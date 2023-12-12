@@ -11,12 +11,12 @@ const Navbar = () => {
                 <img src={logo} alt="" />
             </div>
             <ul className="nav-links">
-                <li><a href="">Home</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Blog</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Contact Us</a></li>
-                <li><a href="" className="cart-icon"><FontAwesomeIcon icon={faCartShopping} className='cart-icon'/></a></li>
+                <li><span className='pages'>Home</span></li>
+                <li><span className='pages'>Shop</span></li>
+                <li><span className='pages'>Blog</span></li>
+                <li><span className='pages'>About</span></li>
+                <li><span className='pages'>Contact Us</span></li>
+                <li><span classname='cart-icon'><FontAwesomeIcon icon={faCartShopping} className='cart-icon'/></span></li>
             </ul>
         </div>
     )
