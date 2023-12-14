@@ -55,13 +55,15 @@
     cursor: pointer;
 }
 
-.nav-links li .active-page {
+.nav-links li .active-page .cart-icon{
     color: #357960;
 }
 
 .nav-links li .cart-icon {
     font-size: 22px;
     transition: transform 0.5s ease;
+    text-decoration: none;
+    color:#0a0a0a
 }
 
 
