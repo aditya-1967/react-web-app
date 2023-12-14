@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 100px;
+    padding: 15px 30px;
     background: #e3e6f3;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
     z-index: 999;
@@ -30,7 +30,7 @@
     text-decoration: none;
     color: #1a1a1a;
     font-size: 22px;
-    font-weight: 450;
+    font-weight: 600;
     position: relative;
     transition: 0.5s ease;
 }
