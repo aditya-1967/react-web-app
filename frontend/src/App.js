@@ -8,6 +8,7 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Cart from "./Pages/Cart";
 import Footer from "./Components/Footer/Footer";
+import LoginSignup from "./Pages/LoginSignup";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/login" element={<LoginSignup />} />
           <Route path="/cart" element={<Cart />} />
         </Routes>
         <Footer />

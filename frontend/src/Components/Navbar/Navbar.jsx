@@ -20,6 +20,7 @@ const Navbar = () => {
                 <li onClick={() => { setMenu("blog") }}><Link to='/blog' className={`pages ${menu === "blog" ? 'active-page' : ''}`}>Blog</Link></li>
                 <li onClick={() => { setMenu("about") }}><Link to='/about' className={`pages ${menu === "about" ? 'active-page' : ''}`}>About</Link></li>
                 <li onClick={() => { setMenu("contact") }}><Link to='/contact' className={`pages ${menu === "contact" ? 'active-page' : ''}`}>Contact Us</Link></li>
+                <li onClick={() => { setMenu("login") }}><Link to='/login' className={`pages ${menu === "login" ? 'active-page' : ''}`}>Login/Sign Up</Link></li>
                 <li onClick={() => { setMenu("cart") }}><Link to='/cart' className={`cart-icon ${menu === "cart" ? 'active-page' : ''}`}><FontAwesomeIcon icon={faCartShopping} className={`cart-icon ${menu === "cart" ? 'active-page' : ''}`} /></Link></li>
             </ul>
         </div>
