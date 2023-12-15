@@ -136,6 +136,7 @@ body {
 }
 
 .form-details form input, .form-details form textarea {
+    background-color: #fafafa;
     width: 100%;
     padding: 12px 15px;
     outline: none;
