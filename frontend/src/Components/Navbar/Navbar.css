@@ -51,6 +51,10 @@ body {
     width: 100%;
 }
 
+/* Global Styles */
+/* ... (unchanged) ... */
+
+/* Navbar Styles */
 .navbar {
     display: flex;
     align-items: center;
@@ -68,6 +72,12 @@ body {
     width: 300px;
 }
 
+.bars {
+    display: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
 .nav-links {
     display: flex;
     align-items: center;
@@ -78,6 +88,50 @@ body {
     list-style: none;
     padding: 0 20px;
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top:70px;
+        left: 0;
+        right: 0;
+        background: #e3e6f3;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+        z-index: 998;
+      
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .bars {
+        display: block;
+        padding: 0px 10px;
+    }
+
+    .nav-links li {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .nav-logo img {
+        width: 200px;
+    }
+}
+
+.nav-links li .pages {
+    text-decoration: none;
+    color: #1a1a1a;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    transition: 0.5s ease;
+}
+
+
 
 .nav-links li .pages {
     text-decoration: none;
